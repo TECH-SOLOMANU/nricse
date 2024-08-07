@@ -1,0 +1,41 @@
+name: nricse
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.2.0
+  flutter_bloc: ^8.1.6
+  multi_select_flutter: ^4.1.3
+  shared_preferences: ^2.2.3
+  firebase_database: ^11.0.3
+  open_file: ^3.3.2
+  path_provider: ^2.1.3
+  url_launcher: ^6.3.0
+  file_picker: ^8.0.6
+  firebase_auth: ^5.1.2
+  excel: ^4.0.3
+  lottie: ^3.1.2
+  firebase_storage: ^12.1.1
+  flutter_phone_direct_caller: ^2.1.1
+  cloud_firestore: ^5.1.0
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
